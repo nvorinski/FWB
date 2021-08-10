@@ -1,9 +1,8 @@
-//import fivestar static resource, call it fivestar
 import fivestar from '@salesforce/resourceUrl/fivestar';
 import { loadScript, loadStyle } from 'lightning/platformResourceLoader';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 import { api, LightningElement } from 'lwc';
-// add constants here
+
 const TOAST_ERROR_TITLE = 'Error loading five-star';
 const ERROR_VARIANT = 'error';
 const READ_ONLY_CLASS = 'readonly c-rating';
