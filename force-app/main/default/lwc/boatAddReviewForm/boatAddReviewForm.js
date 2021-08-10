@@ -5,10 +5,7 @@ import COMMENT_FIELD from '@salesforce/schema/BoatReview__c.Comment__c';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 const TOAST_TITLE = 'Review Created!';
 const TOAST_SUCCESS_VARIANT = 'success';
-// imports
-// import BOAT_REVIEW_OBJECT from schema - BoatReview__c
-// import NAME_FIELD from schema - BoatReview__c.Name
-// import COMMENT_FIELD from schema - BoatReview__c.Comment__c
+
 export default class BoatAddReviewForm extends LightningElement {
     // Private
     boatId;

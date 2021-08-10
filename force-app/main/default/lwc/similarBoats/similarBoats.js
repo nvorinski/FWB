@@ -29,7 +29,7 @@ export default class SimilarBoats extends NavigationMixin(LightningElement) {
     // public
     @api
     similarBy;
-    
+      
     // Wire custom Apex call, using the import named getSimilarBoats
     // Populates the relatedBoats list
     @wire (getSimilarBoats,({ boatId : '$boatId', similarBy : '$similarBy' }))
