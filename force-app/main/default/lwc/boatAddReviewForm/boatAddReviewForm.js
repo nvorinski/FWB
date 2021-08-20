@@ -7,7 +7,6 @@ const TOAST_TITLE = 'Review Created!';
 const TOAST_SUCCESS_VARIANT = 'success';
 
 export default class BoatAddReviewForm extends LightningElement {
-    // Private
     boatId;
     rating;
     boatReviewObject = BOAT_REVIEW_OBJECT;

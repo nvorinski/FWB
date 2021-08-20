@@ -1,7 +1,5 @@
 import { LightningElement,api,track,wire } from 'lwc';
 
-// imports
-// import getSimilarBoats
 import getSimilarBoats from '@salesforce/apex/BoatDataService.getSimilarBoats';
 import { NavigationMixin } from 'lightning/navigation';
 
