@@ -1,5 +1,4 @@
-//Getting similar boats from DB
-
+//Getting similar boats 
 import { LightningElement,api,track,wire } from 'lwc';
 import getSimilarBoats from '@salesforce/apex/BoatDataService.getSimilarBoats';
 import { NavigationMixin } from 'lightning/navigation';
